@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 3 - Advanced HTML Structure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/906/906324.png">
+
+</head>
+<body>
+
+    <header>
+        <h1>My Learning Website</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>About Us</h2>
+
+            <figure>
+                <img src="group.jpeg"
+                     alt="Students learning web development together"
+                     width="400" height="300">
+                <figcaption>Learning web development with structure and discipline.</figcaption>
+            </figure>
+
+            <p>
+                We focus on building strong foundations in HTML before moving to CSS.
+                Structure is the backbone of every great website. Semantic elements
+                improve accessibility, SEO, and readability.
+            </p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+
+            <article>
+                <h3>Frontend Development</h3>
+                <p>Building structured and accessible web pages using semantic HTML.</p>
+            </article>
+
+            <article>
+                <h3>Backend Basics</h3>
+                <p>Understanding server-side logic and data handling fundamentals.</p>
+            </article>
+
+            <article>
+                <h3>Portfolio Building</h3>
+                <p>Helping students create professional portfolio websites.</p>
+            </article>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+
+            <article>
+                <h3>Why Semantic HTML Matters</h3>
+                <p>
+                    Published on 
+                    <time datetime="2026-02-11">February 11, 2026</time>
+                </p>
+                <p>
+                    Semantic HTML improves accessibility and helps search engines
+                    understand your content. It makes your structure clean and professional.
+                </p>
+            </article>
+
+            <article>
+                <h3>Structure Before Style</h3>
+                <p>
+                    Published on 
+                    <time datetime="2026-02-10">February 10, 2026</time>
+                </p>
+                <p>
+                    Many beginners rush to CSS. But mastering HTML structure first
+                    ensures your design sits on a strong foundation.
+                </p>
+            </article>
+        </section>
+
+        <section id="courses">
+            <h2>Available Courses</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Fee</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML Fundamentals</td>
+                        <td>4 Weeks</td>
+                        <td>₹2,000</td>
+                    </tr>
+                    <tr>
+                        <td>CSS Basics</td>
+                        <td>4 Weeks</td>
+                        <td>₹2,500</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript Introduction</td>
+                        <td>6 Weeks</td>
+                        <td>₹3,500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <aside>
+        <h2>Quick Links</h2>
+
+        <ul>
+            <li><a href="#about">Go to About</a></li>
+            <li><a href="#services">Go to Services</a></li>
+            <li><a href="#blog">Go to Blog</a></li>
+            <li><a href="#courses">Go to Courses</a></li>
+        </ul>
+
+        <details>
+            <summary>Upcoming Courses</summary>
+            <p>Advanced CSS and Responsive Design starting next month.</p>
+        </details>
+    </aside>
+
+    <section>
+        <h2>List Practice</h2>
+
+        <h3>Steps to Enroll</h3>
+        <ol>
+            <li>Choose your course</li>
+            <li>Register online</li>
+            <li>Complete payment</li>
+        </ol>
+
+        <h3>Technologies Covered</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h3>Web Terms</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Structure of a webpage</dd>
+
+            <dt>CSS</dt>
+            <dd>Styling of a webpage</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Functionality of a webpage</dd>
+        </dl>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: contact@learningwebsite.com</p>
+        <p>Phone: +91 98765 43210</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 My Learning Website | Built with semantic HTML</p>
+        <p>
+            Visit 
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+               target="_blank" rel="noopener">
+               MDN Web Docs
+            </a>
+            to learn more about HTML.
+        </p>
+    </footer>
+
+</body>
+</html>

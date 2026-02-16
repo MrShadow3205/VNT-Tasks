@@ -1,7 +1,8 @@
 # VNT-Tasks
 <h2>Click on the links below for the tasks according to days</h2>
-<a href="Day1/index.html">Go to Day 1<br></a>
-<a href="Day2/index.html">Go to Day 2<br></a>
-<a href="Day3/index.html">Go to Day 3<br></a>
-<a href="Day4/index.html">Go to Day 4<br></a>
-<a href="Day5/index.html">Go to Day 5<br></a>
+<a href="day-1-html-basics/index.html">Go to Day 1 - HTML Basics<br></a>
+<a href="day-2-html-forms/index.html">Go to Day 2 - HTML Forms<br></a>
+<a href="day-3-semantic-html/index.html">Go to Day 3 - Semantic HTML<br></a>
+<a href="day-4-css-basics/index.html">Go to Day 4 - CSS Basics<br></a>
+<a href="day-5-flexbox/index.html">Go to Day 5 - Flexbox<br></a>
+<a href="day-6-responsive-design/index.html">Go to Day 6 - Responsive Design<br></a>

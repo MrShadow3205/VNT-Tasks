@@ -6,3 +6,5 @@
 <a href="day-4-css-basics/index.html">Go to Day 4 - CSS Basics<br></a>
 <a href="day-5-flexbox/index.html">Go to Day 5 - Flexbox<br></a>
 <a href="day-6-responsive-design/index.html">Go to Day 6 - Responsive Design<br></a>
+
+<a href="day-8-javascript-basics/index.html">Go to Day 8 - JS Basics<br></a>
